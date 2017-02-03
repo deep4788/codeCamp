@@ -1,0 +1,105 @@
+/* General */
+body {
+    margin: 0;
+    font-family: Helvetica;
+    color: #444;
+}
+
+.text-center {
+    text-align: center;
+}
+
+/* Whole container */
+.container {
+    margin: 0px auto;
+    width: 80%;
+}
+
+.main {
+    background-color: #EEE;
+    border-radius: 6px;
+    padding: 10px;
+    margin-top: 30px;
+}
+
+h1 {
+    font-size: 63px;
+    margin-bottom: 10px;
+}
+
+h2 {
+    font-size: 25px;
+    font-style: italic;
+    font-weight: 400;
+    margin-bottom: 15px;
+}
+
+/* Image with text */
+#photo-with-text {
+    border: 1px solid #DDD;
+    border-radius: 4px;
+    width: 50%;
+    background-color: #FFF;
+    padding: 4px;
+    margin: auto;
+}
+
+#photo-with-text img {
+    margin-left: auto;
+    margin-right: auto;
+    max-width: 100%;
+}
+
+#photo-with-text p {
+    margin-top: 8px;
+    margin-bottom: 8px;
+}
+
+/* Timeline */
+#timeline {
+    margin-left: 20%;
+    margin-top: 16px;
+}
+
+#timeline p, #timeline ul {
+    margin-left: 6%;
+}
+
+#timeline p {
+    color: #222;
+    font-size: 24px;
+    font-weight: 600;
+    margin-bottom: 5px;
+}
+
+#timeline ul {
+    width: 50%;
+}
+
+#timeline ul strong {
+    color: #222;
+}
+
+blockquote {
+    margin-left: 25%;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+blockquote p {
+    margin-top: 10px;
+    margin-bottom: 10px;
+    font-weight: 200;
+}
+
+blockquote cite {
+    font-size: 12px;
+    font-weight: 400;
+}
+
+#extra-info {
+    font-size: 25px;
+    width: 50%;
+    color: #222;
+    margin-left: 25%;
+}
