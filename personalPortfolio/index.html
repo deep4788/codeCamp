@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="description" content="This is a personal portfolio page.">
+        <meta name="author" content="Deep Aggarwal">
+        <title>Personal Portfolio</title>
+
+        <link rel="stylesheet" href="font-awesome.min.css">
+        <link rel="stylesheet" href="style.css">
+    </head>
+    <body>
+        <!-- Header with logo and navigation button -->
+        <header>
+            <div class="logo-container">
+                <img class="logo-image" src="http://placehold.it/50x50?text=LOGO">
+            </div>
+
+            <nav>
+                <ul>
+                    <li><a class="about active" href="#">ABOUT</a></li>
+                    <li><a class="portfolio" href="#">PORTFOLIO</a></li>
+                    <li><a class="contact" href="#">CONTACT</a></li>
+                </ul>
+            </nav>
+        </header>
+
+        <!-- Main content of the portfolio -->
+        <main>
+            <!-- Person summary -->
+            <section id="summary" class="clearfix">
+                <div class="introduction">
+                    <p>Front-End Developer and UX/UI designer, with practical experience in project management, branding strategy, and creative direction; devoted to functional programming and information architecture.</p>
+                    <hr class="split-summary"></hr>
+                    <p>Web Developer - User Experience Designer - Graphic Artist</p>
+                </div>
+                <img class="person-image" src="http://placehold.it/300x300">
+            </section>
+
+            <!-- Show projects -->
+            <section id="projects">
+                <h2>PORTFOLIO</h2>
+                <hr class="split-content"></hr>
+                <ul class="projects-images">
+                    <li><img src="http://placehold.it/350x150"></li>
+                    <li><img src="http://placehold.it/350x150"></li>
+                    <li><img src="http://placehold.it/350x150"></li>
+                    <li><img src="http://placehold.it/350x150"></li>
+                </ul>
+            </section>
+
+            <!-- Contact form -->
+            <section id="contact-info">
+                <h2>CONTACT ME</h2>
+                <hr class="split-content"></hr>
+                <div class="left-side">
+                    <form id="contact-form" novalidate>
+                        <div>
+                            <label for="name">Name</label>
+                            <input id="name" type="text" placeholder="Name" required>
+                        </div>
+                        <div>
+                            <label for="email">Email Address</label>
+                            <input id="email" type="text" placeholder="Email Address" required>
+                        </div>
+                        <div>
+                            <label for="phone">Phone Number</label>
+                            <input id="phone" type="text" placeholder="Phone Number" required>
+                        </div>
+                        <div>
+                            <label for="message">Message</label>
+                            <textarea id="message" rows="5" placeholder="Message" required></textarea>
+                        </div>
+
+                        <input type="submit" value="Send">
+                    </form>
+                </div>
+                <div class="right-side">
+                    <p>Want to get in touch with me? Be it to request more info about myself or my experience, to ask for my resume, tips on how to solve your sudoku, random questions about the universe and the meaning of life, or even if only for some nice Fika here in stunning Toronto... just feel free to drop me a line anytime.</p>
+                    <p>I promise to reply A.S.A.P.</p>
+                    <p>Note: No spam/soliciting pour moi, merci :)</p>
+                </div>
+            </section>
+
+            <!-- Social links -->
+            <section id="contact-info">
+                <div class="left-side">
+                    <h3>ABOUT THIS PAGE</h3>
+                    <p>Made with love by Deep Aggarwal</p>
+                </div>
+                <div class="right-side">
+                    <h3>AROUND THE WEB</h3>
+                    <ul class="social-links">
+                        <li><a rel="nofollow" class="button social" href="#"><i class="fa fa-linkedin" aria-hidden="true"></i></a></li>
+                        <li><a rel="nofollow" class="button social" href="#"><i class="fa fa-github" aria-hidden="true"></i></a></li>
+                        <li><a rel="nofollow" class="button social" href="#"><i class="fa fa-twitter" aria-hidden="true"></i></a></li>
+                    </ul>
+                </div>
+            </section>
+        </main>
+
+        <footer>
+            <p>yourname © 2017. All Rights Reversed</p>
+        </footer>
+
+        <script src="app.js"></script>
+    </body>
+</html>

@@ -1,0 +1,98 @@
+body {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Helvetica;
+    background: #888;
+}
+
+header {
+    position: fixed;
+    top: 0;
+    background-color: #722872;
+    height: 80px;
+    width: 100%;
+    line-height: 80px;
+    border: 1px solid #592059;
+    box-shadow: 0px 2px 2px 1px rgba(0, 0, 0, 0.2);
+}
+
+header .logo-container {
+    float: left;
+    padding-left: 15%;
+}
+
+header .logo-container .logo-image {
+    height: 100%;
+    vertical-align: middle;
+}
+
+header nav {
+    float: right;
+    padding-right: 15%;
+}
+
+header nav ul {
+    margin: 0;
+    vertical-align: middle;
+    list-style: none;
+}
+
+header nav ul li {
+    display: inline-block;
+}
+
+header nav ul a {
+    text-decoration: none;
+    color: #777;
+    font-weight: 600;
+    padding: 10px 20px;
+}
+
+header nav ul .active {
+    background-color: #EEE;
+}
+
+.clearfix {
+    overflow: auto;
+}
+
+main {
+    clear: both;
+    width: 70%;
+    margin: 0px auto;
+    margin-top: 80px;
+}
+
+#summary {
+    padding: 50px 30px;
+    background: #AAA;
+    color: #FFF;
+}
+
+#summary div {
+    float: left;
+    padding: 30px 20px 30px 20px;
+    width: 60%;
+    font-size: 20px;
+}
+
+#summary img {
+    float: right;
+}
+
+#summary .split-summary {
+    text-align: right;
+    margin: 40px auto 30px;
+
+}
+        <main>
+            <!-- Person summary -->
+            <section id="summary">
+                <div class="introduction">
+                    <p>Front-End Developer and UX/UI designer, with practical experience in project management, branding strategy, and creative direction; devoted to functional programming and information architecture.</p>
+                    <hr class="split-summary"></hr>
+                    <p>Web Developer - User Experience Designer - Graphic Artis</p>
+                </div>
+                <img class="person-image" src="http://placehold.it/300x300">
+            </section>
